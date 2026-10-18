@@ -7,7 +7,7 @@ Google's [Project Suncatcher](https://research.google/blog/exploring-a-space-bas
 imagines solar-powered satellites flying in a tight cluster, close enough to communicate over short laser links.
 We model that cluster: 81 satellites within about a kilometer of each other, neighbours 100-200 meters apart, 650 km above the Earth.
 
-![One orbit of the cluster](docs/figures/orbital_plane_setup.gif)
+![One orbit of the cluster](orbital_plane_setup.gif)
 
 *Left: the evolution of the cluster in the orbital plane over one orbit. Right: the same formation tilted out of that plane[^1]. 
 Bottom: the distance between two highlighted neighbours. Each dot is a satellite and each grey line a laser link. 
@@ -22,7 +22,7 @@ carries a satellite several times the initial spacing into its neighbours within
 
 **Does a cluster this tight need to coordinate with its neighbours? What is the optimal coordination rule?**
 
-![A sample of debris threat responses](docs/figures/debris_response.gif)
+![A sample of debris threat responses](debris_response.gif)
 
 *Top frame: each threatened satellite dodges alone. 
 Second: everyone moves together. Third: the formation shears, so each satellite moves by a different amount. Fourth: a local repulsive kernel is used.
