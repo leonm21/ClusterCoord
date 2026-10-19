@@ -27,3 +27,11 @@ carries a satellite several times the initial spacing into its neighbours within
 *Top frame: each threatened satellite dodges alone. 
 Second: everyone moves together. Third: the formation shears, so each satellite moves by a different amount. Fourth: a local repulsive kernel is used.
 Pc is the collision probability. Satellites within R_keep of each other are close enough to risk a collision at some point in the orbit.*
+
+## License
+
+- **Code:** MIT. See [LICENSE](LICENSE).
+- **All writing and plots**:
+  [CC BY 4.0](LICENSE-CC-BY-4.0).
+
+Copyright 2026 Leon Mikulinsky
